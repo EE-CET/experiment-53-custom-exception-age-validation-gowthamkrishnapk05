@@ -19,7 +19,7 @@ public class CustomException {
     {
         {
         if(age<18)
-            throw new InvalidAgeException("Not eligible to vote");
+            throw new InvalidAgeException("Exception: Not eligible to vote");
     }
     System.out.println("Eligible to vote");
     
